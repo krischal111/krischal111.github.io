@@ -73,6 +73,7 @@ nav {
 .nav:hover {
     background-color: #dddfd4;
     color: black;
+    opacity: 100%;
 }
 
 .ascii_art {
@@ -83,4 +84,8 @@ nav {
     color: purple;
     border-radius: 5%;
     width: 550pt;
+}
+
+.easter_link {
+    opacity: 0;
 }
