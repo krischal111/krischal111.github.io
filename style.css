@@ -3,8 +3,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#main_subheading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
-    background-image: linear-gradient(maroon, brown);
+    background-image: radial-gradient( #3fb0ac,#173e43);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -30,17 +35,42 @@ a {
 
 #my_links {
     padding: 30px;
-    border: 5px solid;
+    /* border: 5px solid; */
     border-color: rgba(0,0,0,0);
     float: right;
     width: 20%;
     align-items:center;
     align-content: center;
-    background-image: linear-gradient(rgb(57, 61, 65), rgb(57, 57, 70));
+    background-color: #173e43;
+    min-width: 200px;
+    /* background-image: linear-gradient(#3fb0ac, #173e43); */
     border-radius: 25% 0% 25% 0%;
     /* text-align: center; */
 }
 
 .dp {
     border-radius: 25%;
+}
+
+.nav {
+    font-size: 20px;
+    /* text-decoration: none; */
+    /* margin: auto; */
+    padding: 30px;
+}
+
+.me {
+    border: none;
+}
+
+
+nav {
+    /* border: 2px solid red; */
+    overflow: hidden;
+    padding: 14px 16px;
+}
+
+.nav:hover {
+    background-color: #dddfd4;
+    color: black;
 }
