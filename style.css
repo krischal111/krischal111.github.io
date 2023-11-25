@@ -74,3 +74,13 @@ nav {
     background-color: #dddfd4;
     color: black;
 }
+
+.ascii_art {
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding:5%;
+    color: purple;
+    border-radius: 5%;
+    width: 550pt;
+}
