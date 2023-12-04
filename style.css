@@ -20,14 +20,17 @@ body {
 a {
     color: powderblue;
 }
+
 .link {
     display: inline-block;
     /* text-align: center; */
 }
+
 .professional {
     font-family: sans-serif;
     /* border: 2px solid blue; */
 }
+
 .social {
     font-family: calafia;
     /* border: 5px solid white; */
@@ -52,17 +55,24 @@ a {
     border-radius: 25%;
 }
 
-.nav {
+.navig {
     font-size: 20px;
     /* text-decoration: none; */
     /* margin: auto; */
     padding: 30px;
 }
 
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
 .me {
     border: none;
 }
-
 
 nav {
     /* border: 2px solid red; */
@@ -70,7 +80,7 @@ nav {
     padding: 14px 16px;
 }
 
-.nav:hover {
+.navig:hover {
     background-color: #dddfd4;
     color: black;
     opacity: 100%;
