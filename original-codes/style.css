@@ -104,16 +104,22 @@ nav {
     opacity: 100%;
     transition: 0.05s;
 }
+@font-face {
+    font-family: "Courier Prime";
+    src: url(https://fonts.googleapis.com/css?family=Courier+Prime);
+}
 
 .ascii_art {
     background-color: white;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier Prime", Courier, monospace;
     padding:5%;
     color: purple;
     border-radius: 5%;
     width: 550pt;
 }
+
+
 
 .easter_link {
     opacity: 0;
